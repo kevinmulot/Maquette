@@ -385,5 +385,53 @@
 
 <div class="separation"></div>
 
-
+<!-- Formulaire -->
+<div class="container">
+    <form id="formulaire">
+        <div class="row mt-4">
+            <h2 class="mt-4 mb-1 border-bottom text-center col-12">Préinscription</h2>
+            <p class="col-12 h5 text-center">N'hésitez pas à nous informer de votre présence !</p>
+            <div class="form-group col-6">
+                <label for="firstnamedata">Prénom</label>
+                <input type="text" id="firstnamedata" placeholder="Prénom" class="form-control" required>
+            </div>
+            <div class="form-group col-6">
+                <label for="namedata">Nom</label>
+                <input type="text" id="namedata" placeholder="Nom" class="form-control" required>
+            </div>
+            <div class="form-group col-6">
+                <label for="emaildata">Adresse email</label>
+                <input type="email" id="emaildata" class="form-control" aria-describedby="emailHelp"
+                       placeholder="Votre email" required>
+                <small id="emailHelp" class="form-text text-muted">Veuillez entrer une adresse email valide</small>
+            </div>
+            <div class="form-group col-6">
+                <label for="numberdata">Nombre de personnes</label>
+                <input type="number" id="numberdata" class="form-control" min="1" placeholder="0" required>
+            </div>
+            <div class="form-group col-12">
+                <label for="datedata">Date</label>
+                <select class="custom-select" id="datedata" required>
+                    <option value="">Choisir..</option>
+                    <option value="1">Lundi 5 Août</option>
+                    <option value="2">Mardi 6 Août</option>
+                    <option value="3">Mercredi 7 Août</option>
+                    <option value="4">Jeudi 8 Août</option>
+                </select>
+            </div>
+            <div class="form-check offset-md-4 offset-2 col-11">
+                <input type="checkbox" class="form-check-input" id="Check1">
+                <label class="form-check-label" for="Check1">Je souhaite m'inscrire à la Newsletter et recevoir les
+                    dernières actualités.</label>
+            </div>
+            <div class="form-check offset-md-4 offset-2 col-11">
+                <input type="checkbox" class="form-check-input" id="Check2" required>
+                <label class="form-check-label" for="Check2">J'accèpte les conditions générales de
+                    confidentialité.</label>
+            </div>
+            <button type="submit" class="btn btn-danger mt-4 mx-auto mb-5">Soumettre <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </form>
+</div><!-- container -->
 </body>
