@@ -86,8 +86,6 @@ footer,
     color: white;
 }
 
-
-
 .btn-danger,
 .nav-pills .pillcolor .nav-link {
     background: #c4161d;
@@ -104,8 +102,6 @@ h3 ,p, .nav-link i,
 .navbar-light .navbar-brand {
     color: #444444;
 }
-
-
 
 .article-text,
 .article-meta,
@@ -126,4 +122,33 @@ h2 {
 }
 .jumbtext, h3, .fab {
     font-size: 1.1rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .jumbotron {
+        height: 550px;
+    }
+    .separation{
+        height: 150px;
+    }
+    .article-text,
+    .article-meta {
+        font-size: 0.9rem;
+    }
+    .fab{
+        font-size: 1.8rem;
+    }
+    .jumbotron h1 {
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .jumbotron {
+        min-height: 400px;
+    }
 }
