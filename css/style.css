@@ -1,0 +1,129 @@
+body, .bg-light, .nav-pills .pillcolor .nav-link:not(.active){
+    background-color: #f9f9f9;
+}
+.navbar-brand,h2, .jumbotron h1{
+    font-family: lobster ,Roboto,sans-serif;
+}
+
+.jumbotron {
+    background-image: url("../images/atop.jpg");
+    text-align: center;
+    min-height: 300px;
+}
+
+.lead a {
+    margin-top: 2%;
+}
+
+.jumbotron h1,
+.jumbtext {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+nav {
+    max-height: 90px;
+}
+
+footer {
+    background-color: #444444;
+}
+.logo{
+    width: 5%;
+}
+
+.cover {
+    max-height: 210px;
+    max-width: 150px;
+}
+.actualite {
+    box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+    max-width: 350px;
+}
+
+.actualite img {
+    max-height: 225px;
+}
+
+.actualite img,
+.festimg {
+    width: 100%;
+}
+
+.article-meta {
+    margin-bottom: 2px;
+}
+
+.actualite span {
+    float: right;
+    color: cornflowerblue;
+}
+
+.article-text {
+    text-align: justify;
+}
+
+.actualite h3 {
+    margin-top: 10px;
+}
+
+.politique{
+    text-decoration: underline;
+}
+.separation {
+    background: url("../images/bobine-film.jpg")center fixed no-repeat;
+    height: 100px;
+}
+
+footer,
+.separation,
+.jumbotron {
+    background-size: cover;
+}
+
+.nav-pills .pillcolor .nav-link, .jumbtext {
+    color: white;
+}
+
+
+
+.btn-danger,
+.nav-pills .pillcolor .nav-link {
+    background: #c4161d;
+}
+
+.navbar-light .navbar-nav .nav-link i:hover,
+.navbar-light .navbar-nav .nav-link i:focus,
+.nav-pills .pillcolor .nav-link:not(.active),
+.actualite h3, h2{
+    color: #c4161d;
+}
+
+h3 ,p, .nav-link i,
+.navbar-light .navbar-brand {
+    color: #444444;
+}
+
+
+
+.article-text,
+.article-meta,
+.actualite span {
+    font-size: 0.75rem;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+.jumbtext, h3, .fab {
+    font-size: 1.1rem;
+}
