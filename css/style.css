@@ -1,6 +1,14 @@
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 body, .bg-light, .nav-pills .pillcolor .nav-link:not(.active){
     background-color: #f9f9f9;
 }
+
 .navbar-brand,h2, .jumbotron h1{
     font-family: lobster ,Roboto,sans-serif;
 }
@@ -11,6 +19,10 @@ body, .bg-light, .nav-pills .pillcolor .nav-link:not(.active){
     min-height: 300px;
 }
 
+.container-fluid {
+    padding: 0;
+}
+
 .lead a {
     margin-top: 2%;
 }
@@ -19,8 +31,9 @@ body, .bg-light, .nav-pills .pillcolor .nav-link:not(.active){
 .jumbtext {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
+
 nav {
-    max-height: 90px;
+    max-height:7%;
 }
 
 footer {
@@ -72,14 +85,16 @@ footer {
     text-decoration: underline;
 }
 .separation {
-    background: url("../images/bobine-film.jpg")center fixed no-repeat;
+    background: url("../images/bobine-film.jpg")fixed no-repeat;
     height: 100px;
+    width: 100%;
 }
 
 footer,
 .separation,
 .jumbotron {
     background-size: cover;
+    width: 100%;
 }
 
 .nav-pills .pillcolor .nav-link, .jumbtext {
