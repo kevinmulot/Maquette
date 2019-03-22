@@ -90,7 +90,6 @@ footer {
 }
 
 .separation {
-    background: #c4161d;
     height: 5px;
 }
 
@@ -107,19 +106,27 @@ footer,
     width: 100%;
 }
 
-.nav-pills .pillcolor .nav-link, .jumbtext {
+.nav-pills .pillcolor .nav-link,
+.btn-secondary:hover,
+.jumbtext {
     color: white;
 }
 
-.btn-danger,
-.nav-pills .pillcolor .nav-link {
+.nav-pills .pillcolor .nav-link:not(.active):hover {
+    background-color: #ced4da;
+}
+
+.separation, .btn-danger,
+.nav-pills .pillcolor .nav-link,
+.btn-secondary:hover{
     background: #c4161d;
 }
 
 .navbar-light .navbar-nav .nav-link i:hover,
 .navbar-light .navbar-nav .nav-link i:focus,
 .nav-pills .pillcolor .nav-link:not(.active),
-.actualite h3, h2 {
+.actualite h3, h2,
+.navbar-light .navbar-brand:hover {
     color: #c4161d;
 }
 
