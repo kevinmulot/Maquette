@@ -5,16 +5,19 @@ body, html {
     overflow-x: hidden;
 }
 
-body, .bg-light, .nav-pills .pillcolor .nav-link:not(.active){
+body,
+.bg-light,
+.nav-pills .pillcolor .nav-link:not(.active){
     background-color: #f9f9f9;
 }
 
-.navbar-brand,h2, .jumbotron h1{
+.navbar-brand,
+.jumbotron h1, h2 {
     font-family: lobster ,Roboto,sans-serif;
 }
 
 .jumbotron {
-    background-image: url("../images/atop.jpg");
+    background-image:url("../images/atop.jpg");
     text-align: center;
     min-height: 300px;
 }
@@ -85,10 +88,10 @@ footer {
 .politique{
     text-decoration: underline;
 }
+
 .separation {
-    background: url("../images/bobine-film.jpg")fixed no-repeat;
-    height: 100px;
-    width: 100%;
+    background: #c4161d;
+    height: 5px;
 }
 
 footer,
@@ -110,11 +113,12 @@ footer,
 .navbar-light .navbar-nav .nav-link i:hover,
 .navbar-light .navbar-nav .nav-link i:focus,
 .nav-pills .pillcolor .nav-link:not(.active),
-.actualite h3, h2{
+.actualite h3, h2 {
     color: #c4161d;
 }
 
-h3 ,p, .nav-link i,
+h3, p,
+.nav-link i,
 .navbar-light .navbar-brand {
     color: #444444;
 }
@@ -136,7 +140,9 @@ h3 ,p, .nav-link i,
 h2 {
     font-size: 1.5rem;
 }
-.jumbtext, h3, .fab {
+
+.jumbtext, h3,
+.fab {
     font-size: 1.1rem;
 }
 
@@ -146,6 +152,7 @@ h2 {
         height: 550px;
     }
     .separation{
+        background: url("../images/bobine-film.jpg")top fixed;
         height: 150px;
     }
     .article-text,
@@ -158,7 +165,7 @@ h2 {
     .jumbotron h1 {
         font-size: 4rem;
     }
-    h2{
+    h2 {
         font-size: 2rem;
     }
     .navbar-brand {
