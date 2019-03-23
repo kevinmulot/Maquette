@@ -1,4 +1,4 @@
-body, html {
+body {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -43,7 +43,7 @@ footer {
     background-color: #444444;
 }
 
-.logo{
+.logo {
     width: 5%;
 }
 
@@ -113,12 +113,12 @@ footer,
 }
 
 .nav-pills .pillcolor .nav-link:not(.active):hover {
-    background-color: #ced4da;
+    background-color: #f1f1f1;
 }
 
 .separation, .btn-danger,
 .nav-pills .pillcolor .nav-link,
-.btn-secondary:hover{
+.btn-secondary:hover {
     background: #c4161d;
 }
 
