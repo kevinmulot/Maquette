@@ -1,7 +1,7 @@
 body, html {
-    margin: 0;
-    overflow-x: hidden;
-}
+     margin: 0;
+     overflow-x: hidden;
+ }
 
 body, html,
 .container-fluid {
@@ -17,33 +17,59 @@ iframe, footer,
     width: 100%;
 }
 
+.logo {
+    width: 5%;
+}
+
 .jumbotron {
     background-image:url("../images/atop.jpg");
     text-align: center;
     min-height: 300px;
 }
 
-.lead a {
-    margin-top: 2%;
-}
-
-.jumbotron h1,
-.jumbtext {
-    text-shadow: black 0.1em 0.1em 0.2em;
-}
-
 nav {
     max-height:7%;
-}
-
-.logo {
-    width: 5%;
 }
 
 .cover {
     max-height: 210px;
     max-width: 150px;
 }
+
+.actualite img {
+    max-height: 225px;
+}
+
+.separation {
+    height: 5px;
+}
+
+.article-meta {
+    margin-bottom: 2px;
+}
+
+.lead a {
+    margin-top: 2%;
+}
+
+.actualite h3 {
+    margin-top: 10px;
+}
+
+footer,
+.separation,
+.jumbotron {
+    background-size: cover;
+}
+
+.article-text {
+    text-align: justify;
+}
+
+.politique{
+    text-decoration: underline;
+}
+
 .actualite {
     box-shadow: 0 0 20px 1px rgba(0,0,0,0.2);
     padding: 10px;
@@ -52,34 +78,9 @@ nav {
     max-width: 350px;
 }
 
-.actualite img {
-    max-height: 225px;
-}
-
-.article-meta {
-    margin-bottom: 2px;
-}
-
-.article-text {
-    text-align: justify;
-}
-
-.actualite h3 {
-    margin-top: 10px;
-}
-
-.politique{
-    text-decoration: underline;
-}
-
-.separation {
-    height: 5px;
-}
-
-footer,
-.separation,
-.jumbotron {
-    background-size: cover;
+.jumbotron h1,
+.jumbtext {
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .actualite span {
@@ -153,13 +154,13 @@ footer {
 
 
 @media screen and (min-width: 1024px) {
-    .jumbotron {
-        height: 550px;
-        min-height: 400px;
-    }
     .separation {
         background: url("../images/bobine-film.jpg")top fixed;
         height: 150px;
+    }
+    .jumbotron {
+        height: 550px;
+        min-height: 400px;
     }
     .article-text,
     .article-meta {
@@ -171,10 +172,7 @@ footer {
     .jumbotron h1 {
         font-size: 4rem;
     }
-    h2 {
-        font-size: 2rem;
-    }
-    .navbar-brand {
+    h2, .navbar-brand {
         font-size: 2rem;
     }
 }
