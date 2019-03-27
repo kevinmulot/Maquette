@@ -1,29 +1,26 @@
 body, html {
-    width: 100%;
     margin: 0;
-    padding: 0;
     overflow-x: hidden;
 }
 
-body,
-.bg-light,
-.nav-pills .pillcolor .nav-link:not(.active){
-    background-color: #f9f9f9;
+body, html,
+.container-fluid {
+    padding: 0;
 }
 
-.navbar-brand,
-.jumbotron h1, h2 {
-    font-family: lobster ,Roboto,sans-serif;
+body, html,
+iframe, footer,
+.actualite img,
+.festimg,
+.separation,
+.jumbotron {
+    width: 100%;
 }
 
 .jumbotron {
     background-image:url("../images/atop.jpg");
     text-align: center;
     min-height: 300px;
-}
-
-.container-fluid {
-    padding: 0;
 }
 
 .lead a {
@@ -37,10 +34,6 @@ body,
 
 nav {
     max-height:7%;
-}
-
-footer {
-    background-color: #444444;
 }
 
 .logo {
@@ -63,18 +56,8 @@ footer {
     max-height: 225px;
 }
 
-.actualite img,
-.festimg {
-    width: 100%;
-}
-
 .article-meta {
     margin-bottom: 2px;
-}
-
-.actualite span {
-    float: right;
-    color: cornflowerblue;
 }
 
 .article-text {
@@ -99,11 +82,15 @@ footer,
     background-size: cover;
 }
 
-iframe,
-footer,
-.separation,
-.jumbotron {
-    width: 100%;
+.actualite span {
+    float: right;
+    color: cornflowerblue;
+}
+
+body,
+.bg-light,
+.nav-pills .pillcolor .nav-link:not(.active){
+    background-color: #f9f9f9;
 }
 
 .nav-pills .pillcolor .nav-link,
@@ -136,13 +123,17 @@ h3, p,
     color: #444444;
 }
 
+footer {
+    background-color: #444444;
+}
+
 .article-text,
 .article-meta,
 .actualite span {
     font-size: 0.75rem;
 }
 
-.navbar-brand {
+.navbar-brand, h2 {
     font-size: 1.5rem;
 }
 
@@ -150,21 +141,23 @@ h3, p,
     font-size: 2.5rem;
 }
 
-h2 {
-    font-size: 1.5rem;
-}
-
 .jumbtext, h3,
 .fab {
     font-size: 1.1rem;
+}
+
+.navbar-brand,
+.jumbotron h1, h2 {
+    font-family: lobster ,Roboto,sans-serif;
 }
 
 
 @media screen and (min-width: 1024px) {
     .jumbotron {
         height: 550px;
+        min-height: 400px;
     }
-    .separation{
+    .separation {
         background: url("../images/bobine-film.jpg")top fixed;
         height: 150px;
     }
@@ -183,8 +176,5 @@ h2 {
     }
     .navbar-brand {
         font-size: 2rem;
-    }
-    .jumbotron {
-        min-height: 400px;
     }
 }
