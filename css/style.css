@@ -155,8 +155,9 @@ footer {
 
 @media screen and (min-width: 1024px) {
     .separation {
-        background: url("../images/bobine-film.jpg")top fixed;
+        background: url("../images/bobine-film.jpg")fixed;
         height: 150px;
+        background-size: cover;
     }
     .jumbotron {
         height: 550px;
